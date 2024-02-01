@@ -1,0 +1,187 @@
+[
+    {
+        "id": "35",
+        "new_split": "在 一 正方形 花池 的 四周 栽 了 44 棵 柳树 ， 每 两棵 柳树 之间 的 间隔 是 20 米 ， 这个 正方形 的 周长 = 多少 米 ？",
+        "equation": "x=44*20",
+        "text": "在 一 正方形 花池 的 四周 栽 了 temp_a 棵 柳树 ， 每 两棵 柳树 之间 的 间隔 是 temp_b 米 ， 这个 正方形 的 周长 = 多少 米 ？",
+        "target_norm_post_template": [
+            "x",
+            "=",
+            "temp_a",
+            "temp_b",
+            "*"
+        ],
+        "target_template": [
+            "x",
+            "=",
+            "temp_a",
+            "*",
+            "temp_b"
+        ],
+        "num_list": [
+            44.0,
+            20.0
+        ],
+        "original_text": "在一正方形花池的4周栽了44棵柳树，每两棵柳树之间的间隔是20米，这个正方形的周长=多少米？",
+        "segmented_text": "在 一 正方形 花池 的 4 周 栽 了 44 棵 柳树 ， 每 两棵 柳树 之间 的 间隔 是 20 米 ， 这个 正方形 的 周长 = 多少 米 ？",
+        "answer": 880.0,
+        "sni_text": "在一正方形花池的四周栽了44棵柳树，每两棵柳树之间的间隔是20米，这个正方形的周长=多少米？",
+        "ans": "880",
+        "formula": [
+            "total_length = * total_number unit_length",
+            "None",
+            "None"
+        ],
+        "target_norm_prefix_template": [
+            "*",
+            "temp_a",
+            "temp_b"
+        ],
+        "GPT3_steps": [
+            "To complete the prefix expression, we need to first calculate the total number of gaps between the trees, which is 44-1=43 gaps. Then, we multiply this number by the distance between each gap, which is 20 meters. Finally, we add this result to the perimeter of the square, which is equal to the sum of all four sides.",
+            "To complete the prefix expression, we need to multiply the total number of gaps between the trees by the distance between each gap, which is 20 meters.",
+            "To complete the prefix expression, we need to calculate the total number of meters that the willow trees take up, which is 44 trees multiplied by the 20 meter distance between each tree."
+        ],
+        "step_know_stat": 1,
+        "step_label": [
+            0,
+            0,
+            1
+        ],
+        "ww_know": "",
+        "wo_know": ""
+    },
+    {
+        "id": "65",
+        "new_split": "张明 有 120 元 钱 ， 买书用 去 80% ， 买 文具 的 钱 是 买 书 的 15% ． 买 文具 用 去 多少 元 ？",
+        "equation": "x=120*80%*15%",
+        "text": "张明 有 temp_a 元 钱 ， 买书用 去 temp_b % ， 买 文具 的 钱 是 买 书 的 temp_c % ． 买 文具 用 去 多少 元 ？",
+        "target_norm_post_template": [
+            "x",
+            "=",
+            "temp_a",
+            "temp_b",
+            "*",
+            "temp_c",
+            "*"
+        ],
+        "target_template": [
+            "x",
+            "=",
+            "temp_a",
+            "*",
+            "temp_b",
+            "*",
+            "temp_c"
+        ],
+        "num_list": [
+            120.0,
+            0.8,
+            0.15
+        ],
+        "original_text": "张明有120元钱，买书用去80%，买文具的钱是买书的15%．买文具用去多少元？",
+        "segmented_text": "张 明 有 120 元 钱 ， 买 书 用 去 80% ， 买 文具 的 钱 是 买 书 的 15% ． 买 文具 用 去 多少 元 ？",
+        "answer": 14.4,
+        "sni_text": "张明有120元钱，买书用去80%，买文具的钱是买书的15%．买文具用去多少元？",
+        "ans": "14.4",
+        "formula": [
+            "None",
+            "None",
+            "None",
+            "None",
+            "None"
+        ],
+        "target_norm_prefix_template": [
+            "*",
+            "*",
+            "temp_a",
+            "temp_b",
+            "temp_c"
+        ],
+        "GPT3_steps": [
+            "To complete the prefix expression, we need to first calculate the amount of money spent on books by multiplying 120 by 80%.",
+            "To complete the prefix expression, we then need to calculate the amount of money spent on stationery by multiplying the amount spent on books (96) by 15%.",
+            "To complete the prefix expression, we need to first calculate the amount of money spent on books by multiplying 120 by 80%, which is equivalent to 0.8. Then, we need to calculate the amount of money spent on stationery by multiplying the amount spent on books by 15%, which is equivalent to 0.15. Finally, we need to subtract the amount spent on books from the total amount spent on stationery to get the answer.",
+            "To complete the prefix expression, we need to multiply 120 by 80%.",
+            "To complete the prefix expression, we need to calculate the amount of money spent on stationery by multiplying the amount spent on books by 0.15 (15%)."
+        ],
+        "step_know_stat": 1,
+        "step_label": [
+            1,
+            1,
+            0,
+            1,
+            1
+        ],
+        "ww_know": "",
+        "wo_know": ""
+    },
+    {
+        "id": "118",
+        "new_split": "一个 工厂 要 生产 3000 个 零件 ， 前 6 天 生产 了 750 个 ， 剩下 的 要 在 15 天内 完成 ， 平均 每天 生产 多少 个 ？",
+        "equation": "x=(3000-750)/15",
+        "text": "一个 工厂 要 生产 temp_a 个 零件 ， 前 temp_b 天 生产 了 temp_c 个 ， 剩下 的 要 在 temp_d 天内 完成 ， 平均 每天 生产 多少 个 ？",
+        "target_norm_post_template": [
+            "x",
+            "=",
+            "temp_a",
+            "temp_c",
+            "-",
+            "temp_d",
+            "/"
+        ],
+        "target_template": [
+            "x",
+            "=",
+            "(",
+            "temp_a",
+            "-",
+            "temp_c",
+            ")",
+            "/",
+            "temp_d"
+        ],
+        "num_list": [
+            3000.0,
+            6.0,
+            750.0,
+            15.0
+        ],
+        "original_text": "一个工厂要生产3000个零件，前6天生产了750个，剩下的要在15天内完成，平均每天生产多少个？",
+        "segmented_text": "一 个 工厂 要 生产 3000 个 零件 ， 前 6 天 生产 了 750 个 ， 剩下 的 要 在 15 天 内 完成 ， 平均 每天 生产 多少 个 ？",
+        "answer": 150.0,
+        "sni_text": "一个工厂要生产3000个零件，前6天生产了750个，剩下的要在15天内完成，平均每天生产多少个？",
+        "ans": "150",
+        "formula": [
+            "rate = / work time",
+            "None",
+            "None",
+            "None",
+            "None"
+        ],
+        "target_norm_prefix_template": [
+            "/",
+            "-",
+            "temp_a",
+            "temp_c",
+            "temp_d"
+        ],
+        "GPT3_steps": [
+            "To complete the prefix expression, we need to divide the remaining number of parts by the remaining number of days to determine the average daily production rate.\n Therefore, we use the '/' operator to represent this division operation.",
+            "To complete the prefix expression, we need to divide the remaining number of parts by the remaining number of days to determine the average daily production rate.\n Therefore, we use the '/' operator to represent this division operation.",
+            "To complete the prefix expression, we need to first subtract the number of parts produced in the first 6 days from the total number of parts needed to be produced.",
+            "To complete the prefix expression, we need to subtract the number of parts produced in the first 6 days from the total number of parts needed.",
+            "To complete the prefix expression, we divide this difference by the number of days remaining to determine the average number of parts that need to be produced each day."
+        ],
+        "step_know_stat": 1,
+        "step_label": [
+            1,
+            0,
+            1,
+            1,
+            1
+        ],
+        "ww_know": "\"工厂\"-\"生产\"",
+        "wo_know": ""
+    }
+]

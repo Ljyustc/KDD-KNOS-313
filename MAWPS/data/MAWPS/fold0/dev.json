@@ -1,0 +1,83 @@
+[
+    {
+        "question": "Bryan took a look at his books as well . If Bryan has 56.0 books in each of his 9.0 bookshelves , how many books does he have in total ?",
+        "equation": "* 56.0 9.0",
+        "answer": 504.0,
+        "GPT3_answer": "Bryan has a total of 504.0 books.",
+        "GPT3_correct": 1,
+        "GPT3_explanation": "9.0 multiplied by 56.0 equals 504.0.",
+        "GPT3_steps": [
+            "To complete the prefix expression, we need to multiply the number of books in each bookshelf by the total number of bookshelves.\n Therefore, we use the '*' operator to represent this multiplication operation.",
+            "To complete the prefix expression, we need to multiply the number of books in each bookshelf by the total number of bookshelves.",
+            "To complete the prefix expression, we need to multiply the number of books in each bookshelf (56.0) by the total number of bookshelves (9.0) to determine the total number of books."
+        ],
+        "step_stat": 1,
+        "step_label": [
+            1,
+            1,
+            1
+        ],
+        "formula": [
+            "total_amount = * unit_amount total_number",
+            "None",
+            "None"
+        ],
+        "ww_know": "",
+        "wo_know": "\"as\"-\"+\"",
+        "step_know_stat": 1
+    },
+    {
+        "question": "For the fifth grade play , the chairs have been put into 27.0 rows with 16.0 chairs in each row . How many chairs have been put out for the play ?",
+        "equation": "* 27.0 16.0",
+        "answer": 432.0,
+        "GPT3_answer": "There have been 432 chairs put out for the play.",
+        "GPT3_correct": 1,
+        "GPT3_explanation": "there are 16 chairs in each row and there are 27 rows. 16 multiplied by 27 equals 432.",
+        "GPT3_steps": [
+            "To complete the prefix expression, we need to multiply the number of rows with the number of chairs in each row to determine the total number of chairs.\n Therefore, we use the '*' operator to represent this multiplication operation.",
+            "To complete the prefix expression, we need to multiply the number of rows with the number of chairs in each row to determine the total number of chairs put out for the play.",
+            "To complete the prefix expression, we need to multiply the number of rows with the number of chairs in each row to determine the total number of chairs put out for the play.\n Therefore, we use the '*' operator to represent this multiplication operation and use the numbers '27.0' and '16.0' to represent the number of rows and chairs in each row, respectively."
+        ],
+        "step_stat": 1,
+        "step_label": [
+            1,
+            1,
+            0
+        ],
+        "formula": [
+            "None",
+            "None",
+            "None"
+        ],
+        "ww_know": "\"into\"-\"put\", \"into\"-\"out\"",
+        "wo_know": "",
+        "step_know_stat": 1
+    },
+    {
+        "question": "There are 41.0 short trees and 44.0 tall trees currently in the park . Park workers will plant 57.0 short trees today . How many short trees will the park have when the workers are finished ?",
+        "equation": "+ 41.0 57.0",
+        "answer": 98.0,
+        "GPT3_answer": "The park will have 98.0 short trees when the workers are finished.",
+        "GPT3_correct": 1,
+        "GPT3_explanation": "41.0 + 57.0 = 98.0",
+        "GPT3_steps": [
+            "To complete the prefix expression, we need to add the current number of short trees with the number of short trees that will be planted today.\n Therefore, we use the '+' operator to represent this addition operation.",
+            "To complete the prefix expression, we need to add the current number of short trees in the park with the number of short trees that will be planted today.\n Therefore, we use the '41.0' number to represent the current number of short trees in the park.",
+            "To complete the prefix expression, we need to add the current number of short trees in the park with the number of short trees that will be planted today.\n Therefore, we use the '57.0' number to represent the number of short trees that will be planted today."
+        ],
+        "step_stat": 1,
+        "step_label": [
+            1,
+            1,
+            1
+        ],
+        "formula": [
+            "None",
+            "None",
+            "None"
+        ],
+        "ww_know": "\"plant\"-\"trees\"",
+        "wo_know": "\"short\"-\"+\", \"tall\"-\"+\"",
+        "step_know_stat": 1
+    }
+]

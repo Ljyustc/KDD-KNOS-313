@@ -1,0 +1,8 @@
+{
+  "user": "jyliu",
+  "ascii": "ch",
+  "model": "text-davinci-002",
+  "temperature": 0,
+  "save_file": "./output.json"
+}
+
