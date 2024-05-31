@@ -1,6 +1,6 @@
-### Simulating Human-like Reasoning with Large Language Models for Math Word Problem Solving
+### Simulating Human-like Reasoning with Large Models for Math Word Problem Solving
 
-This is an anonymous repo for paper "[Simulating Human-like Reasoning with Large Language Models for Math Word Problem Solving]".
+This is a repo for paper "[Simulating Human-like Reasoning with Large Models for Math Word Problem Solving]".
 
 ### Requirements
 * python==3.7
